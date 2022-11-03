@@ -1,16 +1,30 @@
-.bgimage{
-    width: 80%;
-    height: 500px;
+body{
+    background-image: url(./image/bg_main.gif);
+    background-size:  cover;
+    margin: 0;
+}
+.container{
+    width: 1020px;
     margin: 0 auto;
-    border: 10px  solid;
-   
-    background: red url(./image/images.jpg)  no-repeat center center;
 
 }
-.boxmodel{
-    background: blue;
-    padding: 20px;
-    border: 1px solid #cab4b4;
-    margin: 20px;
+.topbar{
+    background-color: #9E5BBA;
+    width: 100%;
+    float: left;
+    padding: 5px 15px;
+    color: #ffffff;
+}
+.topbar .topbar-left{
+    float: left;
+}
+.topbar .topbar-right{
+    float: right;
+    font-size: 12px;
 
+    
+}
+.topbar-right a{
+    color: white;
+    font-size: 12px;
 }
