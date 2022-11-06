@@ -6,14 +6,14 @@ body{
 .container{
     width: 1020px;
     margin: 0 auto;
+   
 
 }
+
 .topbar{
-    background-color: #9E5BBA;
-    width: 100%;
-    float: left;
-    padding: 5px 15px;
-    color: #ffffff;
+  background: rgb(178, 40, 164);
+  height: 30px;
+  color: rgb(238, 234, 234);
 }
 .topbar .topbar-left{
     float: left;
@@ -27,4 +27,292 @@ body{
 .topbar-right a{
     color: white;
     font-size: 12px;
+}
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+    width: 580px;
+}
+.header-left img{
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+
+}
+.hr-top ul {
+    background-color: rgb(53, 171, 52);
+    margin: 0;
+    padding: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    
+}
+
+.hr-top ul li{
+    display: inline-block;
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+.hr-top ul li a{
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display:inline-block;
+    border-left: 1px solid #ffff;
+    height: 24px;
+    float: left;
+    line-height: 12px;
+}
+span{
+    font-size: 25px;
+}
+.hr-bottom{
+    margin-top: 15px;}
+
+
+.search{
+    float: left;
+}
+.search input[type=text]{
+    width: 300px;
+    height:15px ;
+    padding:3px ;
+    border-radius: 4px;}
+.search input[type=buttom]{
+    height: 28px;
+    padding:3px
+}
+.socaial-contaiter{
+    float: right;
+    border-left: 1px solid#141313;
+    padding-left: 10px;
+
+}
+
+.a2i-logo{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+.socaial-contaiter{
+    float: right;
+    border-left: 1px solid#141313;
+    padding-left: 10px;
+
+}
+
+.a2i-logo{
+    padding-left: 15px;
 }
