@@ -1,0 +1,16 @@
+.bgimage{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border: 10px  solid;
+   
+    background: red url(./image/images.jpg)  no-repeat center center;
+
+}
+.boxmodel{
+    background: blue;
+    padding: 20px;
+    border: 1px solid #cab4b4;
+    margin: 20px;
+
+}
