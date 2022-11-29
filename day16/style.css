@@ -1,0 +1,72 @@
+.topbar{
+    background-color: #9E5BBA;
+}
+.topbar-right{
+    float: right;
+}
+.topbar-right div{
+    display:inline-block;
+    float: right;
+    border-left: 1px solid white;
+    height: 50px;
+    padding: 5px;
+}
+.topbar-right p{
+    display: inline-block;
+    float: right;
+    padding:5px 5px 0 5px;
+
+}
+/*logo part star */
+.logo{
+    height: 110px;
+
+}
+.logo left{
+    line-height: 110px;
+
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 70px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+.logo_search button{
+    width: 70px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+.logo1{
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+/*logo part end */
+/*menu part star*/
+.menu1 ul li a{
+    font-size: 15px !important;
+}.menu1 ul li :hover{
+    background-color: chartreuse;
+}
+/*menu part end*/
+/*hero part star*/
+.banner img{
+    border: 2px solid red ;
+    padding: 10px;
+}
+.slider img{
+    height: 350px ;
+    padding: 5px;
+}
+/*hero part end*/
+
