@@ -9,14 +9,36 @@ add_theme_support( 'custom-logo' );
 add_theme_support( 'post-thumbnails' );
 
 
+register_nav_menus([
+    'PM'=>'primary',
+
+]);
+
+
 
 register_sidebar([
     'name'=> ' Bd Logo',
     'id'=> 'bdlogo',
     'before_widget'=>'',
     'after_widget'=>'',
-    
+
+
+
 
 ]);
-  
+
+
+register_sidebar([
+    'name' => ' Hero title',
+    'id' => 'herotitle',
+    'before_widget' => '',
+    'after_widget' => '',
+]);
+register_sidebar([
+    'name' => ' Hero card 1',
+    'id' => 'herocard1',
+    'before_widget' => '',
+    'after_widget' => '',
+]);
+
 

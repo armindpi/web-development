@@ -56,6 +56,38 @@
 
     <!-- logo part end -->
 
+    <!-- menu part star -->
+    <section class="container-fluid navbar-expand navbar-light bg-light menu">
+      <div class="container">
+        <?php
+        wp_nav_menu([
+          'theme_location'=>'PM',
+          'menu_class'=>'navbar-nav'
+        ]);
+        ?>
+      </div>
+    </section>
+    <!-- menu part end -->
+    <!-- hero part start -->
+    <section class="container text-center mt-5 hero">
+    <div class="row">
+      <?php dynamic_sidebar('herotitle')?>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+      <?php dynamic_sidebar('herocard1')?>
+    </div>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4"></div>
+    </div>
+    </section>
+   
+    <!-- hero part end -->
+
+
 
 
 
